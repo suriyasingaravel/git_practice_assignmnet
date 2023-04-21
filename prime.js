@@ -1,7 +1,8 @@
 let count=0;
+let num=5;
      for(let i=1; i<=num; i++){
         if(num%i==0){
-         count+;
+         count++;
         }
      }
      if(count==2){
@@ -10,4 +11,3 @@ let count=0;
      else{
          console.log("No");
      }
-}
